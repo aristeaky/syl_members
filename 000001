@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<title>Κάρτα Μέλους</title>
+<style>
+body {
+   font-family: Arial;
+   max-width: 450px;
+   margin: auto;
+   padding: 20px;
+   background: #f7f7f7;
+   border-radius: 10px;
+}
+.card {
+   background: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+<h2>Πολιτιστικός Σύλλογος Koκκάλας</h2>
+<hr>
+<p><strong>Όνομα:</strong> Μαρία Παπαδοπούλου</p>
+<p><strong>Αριθμός Μέλους:</strong> 000001</p>
+<p><strong>Έτος:</strong> 2026</p>
+<p><strong>Email:</strong> maria@example.com</p>
+</div>
+</body>
+</html>
