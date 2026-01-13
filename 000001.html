@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Κάρτα Μέλους</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Σημαντικό -->
 <style>
-/* Σώμα σελίδας */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
@@ -15,53 +15,48 @@ body {
     margin: 0;
 }
 
-/* Κεντρική κάρτα */
 .card {
     background: #ffffff;
-    padding: 30px 40px;
+    padding: 40px 50px; /* μεγαλύτερη κάρτα */
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-    width: 100%;
-    max-width: 500px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    width: 90%;           /* γεμίζει σχεδόν όλη την οθόνη σε κινητό */
+    max-width: 600px;
     text-align: center;
 }
 
-/* Τίτλος συλλόγου */
 .card h2 {
     margin-top: 0;
     color: #2c3e50;
-    font-size: 24px;
+    font-size: 28px; /* μεγαλύτερος τίτλος */
 }
 
-/* Γραμμές διαχωρισμού */
 .card hr {
     border: 0;
     border-top: 1px solid #d1d8e0;
-    margin: 20px 0;
+    margin: 25px 0;
 }
 
-/* Πεδία */
 .card p {
-    font-size: 18px;
-    margin: 10px 0;
+    font-size: 20px; /* μεγαλύτερο κείμενο */
+    margin: 12px 0;
     color: #34495e;
 }
 
-/* Επιπλέον στυλ για labels */
 .card p strong {
     color: #2c3e50;
 }
 
-/* Responsive για κινητά */
+/* Responsive για μικρές οθόνες */
 @media (max-width: 480px) {
     .card {
-        padding: 20px;
+        padding: 30px 20px;
     }
     .card h2 {
-        font-size: 20px;
+        font-size: 24px;
     }
     .card p {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 </style>
