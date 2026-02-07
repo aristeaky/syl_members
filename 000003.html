@@ -15,8 +15,8 @@
     }
     .card {
         background: linear-gradient(135deg, #4A90E2, #50E3C2);
-        width: 320px;
-        height: 180px;
+        width: 360px;   /* λίγο μεγαλύτερη */
+        height: 220px;  /* πιο ψηλή */
         border-radius: 16px;
         color: white;
         box-shadow: 0 4px 12px rgba(0,0,0,0.3);
@@ -50,12 +50,13 @@
     .qr {
         display: flex;
         justify-content: flex-end;
-        align-items: center;
-        padding: 0 20px 10px 0;
+        align-items: flex-start; /* QR πιο πάνω */
+        padding: 0 20px 0 0;
+        margin-top: -10px; /* ανεβάζουμε λίγο */
     }
     .qr img {
-        width: 60px;
-        height: 60px;
+        width: 70px;   /* λίγο μεγαλύτερο QR */
+        height: 70px;
     }
 </style>
 </head>
@@ -63,12 +64,13 @@
 <div class="card">
     <div class="header">Πολιτιστικός Σύλλογος Κοκκάλας</div>
     <div class="member-info">
-        <h2>Αναφτρακιi</h2>
+        <h2>Αναφτρακι</h2>
         <p>Μέλος #: 000001</p>
+        <p>Email: example@email.com</p> <!-- νέο πεδίο email -->
         <p>Έτος: 2026</p>
     </div>
     <div class="qr">
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=60x60&data=https://aristeaky.github.io/syl_members/000001" alt="QR Code">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://aristeaky.github.io/syl_members/000001" alt="QR Code">
     </div>
 </div>
 </body>
